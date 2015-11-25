@@ -20,8 +20,7 @@
 					foreach(new RecursiveIteratorIterator(new RecursiveDirectoryIterator('.')) as $path)
 					{
 						echo("$path<br>\n");
-					}
-					echo("\t\t\t\t</ol></ol>\n")					
+					}				
  				?>
  				<input type="submit" value="OK">
 			</form>
