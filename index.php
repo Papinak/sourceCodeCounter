@@ -19,7 +19,7 @@
  					$showPath = "";
 					foreach(new RecursiveIteratorIterator(new RecursiveDirectoryIterator('.')) as $path)
 					{
-						echo("s");
+						echo("$path<br>\n");
 					}				
  				?>
  				<input type="submit" value="OK">
